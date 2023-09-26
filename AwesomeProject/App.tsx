@@ -1,5 +1,6 @@
 import React from 'react';
 import {NativeModules, StyleSheet, Button, View} from 'react-native';
+import CalendarModule from './Modules/CalendarModule';
 
 const styles = StyleSheet.create({
   container: {
@@ -8,7 +9,6 @@ const styles = StyleSheet.create({
   },
 });
 
-const {CalendarModule} = NativeModules;
 
 const App = () => {
 
